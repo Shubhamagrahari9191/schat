@@ -1,0 +1,26 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "This is a node server for our schat application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shubham",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "index.js": "^0.0.3",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "This is a node server for our schat application "
+  }
+}
